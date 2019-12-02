@@ -1,0 +1,43 @@
+FIT description: U-Boot fitImage for PetaLinux/4.14-xilinx-v2018.3+gitAUTOINC+eeab73d120/zcu102-zynqmp
+Created:         Thu Dec  6 05:09:35 2018
+ Image 0 (kernel@1)
+  Description:  Linux kernel
+  Created:      Thu Dec  6 05:09:35 2018
+  Type:         Kernel Image
+  Compression:  gzip compressed
+  Data Size:    7083888 Bytes = 6917.86 KiB = 6.76 MiB
+  Architecture: AArch64
+  OS:           Linux
+  Load Address: 0x00080000
+  Entry Point:  0x00080000
+  Hash algo:    sha1
+  Hash value:   03bb5b9f594ecde8ace773711cd594daceb8ea5b
+ Image 1 (fdt@system-top.dtb)
+  Description:  Flattened Device Tree blob
+  Created:      Thu Dec  6 05:09:35 2018
+  Type:         Flat Device Tree
+  Compression:  uncompressed
+  Data Size:    42544 Bytes = 41.55 KiB = 0.04 MiB
+  Architecture: AArch64
+  Hash algo:    sha1
+  Hash value:   7271a8e3898280e951ddeb1a7829ae3e4ec212c7
+ Image 2 (ramdisk@1)
+  Description:  petalinux-user-image
+  Created:      Thu Dec  6 05:09:35 2018
+  Type:         RAMDisk Image
+  Compression:  gzip compressed
+  Data Size:    41830200 Bytes = 40849.80 KiB = 39.89 MiB
+  Architecture: AArch64
+  OS:           Linux
+  Load Address: unavailable
+  Entry Point:  unavailable
+  Hash algo:    sha1
+  Hash value:   2e43c5ce1feb1e8278331354b4ac48793a38b0c3
+ Default Configuration: 'conf@system-top.dtb'
+ Configuration 0 (conf@system-top.dtb)
+  Description:  1 Linux kernel, FDT blob, ramdisk
+  Kernel:       kernel@1
+  Init Ramdisk: ramdisk@1
+  FDT:          fdt@system-top.dtb
+  Hash algo:    sha1
+  Hash value:   unavailable
