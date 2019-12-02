@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]F:\Project\Vivado\Linux\Vernier_System\Vernier_System.sdk\fsbl\Debug\fsbl.elf
+	F:\Project\Vivado\Linux\Vernier_System\Vernier_System.sdk\Vernier_wrapper_hw_platform_1\Vernier_wrapper.bit
+	F:\Project\Ubuntu_Share\Work\zed\u-boot.elf
+}

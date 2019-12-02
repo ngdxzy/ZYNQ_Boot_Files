@@ -1,0 +1,1 @@
+cmd_/home/alfred/My_drivers/102/Led_drv.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/alfred/My_drivers/102/Led_drv.ko /home/alfred/My_drivers/102/Led_drv.o /home/alfred/My_drivers/102/Led_drv.mod.o ;  true
