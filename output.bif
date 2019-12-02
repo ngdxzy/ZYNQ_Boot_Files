@@ -1,7 +1,0 @@
-//arch = zynq; split = false; format = BIN
-the_ROM_image:
-{
-	[bootloader]E:\Vivado\Linux\PynqDemp\PynqDemp.sdk\fsbl\Debug\fsbl.elf
-	E:\Vivado\Linux\PynqDemp\PynqDemp.sdk\design_1_wrapper_hw_platform_0\design_1_wrapper.bit
-	E:\Ubuntu_Share\Work\pynqz1\u-boot.elf
-}
