@@ -1,1 +1,0 @@
-bootargs=console=ttyPS0,115200 init=/sbin/init root=/dev/mmcblk0p2 rootfstype=ext4 rootwait rw devtmpfs.mount=1 earlycon earlyprintk

@@ -1,1 +1,0 @@
-cmd_/mnt/hgfs/Ubuntu_Share/My_drivers/rgb_led/rgbled.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /mnt/hgfs/Ubuntu_Share/My_drivers/rgb_led/rgbled.ko /mnt/hgfs/Ubuntu_Share/My_drivers/rgb_led/rgbled.o /mnt/hgfs/Ubuntu_Share/My_drivers/rgb_led/rgbled.mod.o ;  true
