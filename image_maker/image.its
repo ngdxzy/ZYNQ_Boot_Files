@@ -1,0 +1,30 @@
+FIT description: U-Boot fitImage for PetaLinux/4.19-xilinx-v2019.1+gitAUTOINC+9811303824/zcu104-zynqmp
+Created:         Sat May 25 03:57:44 2019
+ Image 0 (kernel@1)
+  Description:  Linux kernel
+  Created:      Sat May 25 03:57:44 2019
+  Type:         Kernel Image
+  Compression:  uncompressed
+  Data Size:    18149888 Bytes = 17724.50 KiB = 17.31 MiB
+  Architecture: AArch64
+  OS:           Linux
+  Load Address: 0x00080000
+  Entry Point:  0x00080000
+  Hash algo:    sha1
+  Hash value:   886801eab40fc5f75b49c4ecc22850c574d3dba5
+ Image 1 (fdt@system-top.dtb)
+  Description:  Flattened Device Tree blob
+  Created:      Sat May 25 03:57:44 2019
+  Type:         Flat Device Tree
+  Compression:  uncompressed
+  Data Size:    38081 Bytes = 37.19 KiB = 0.04 MiB
+  Architecture: AArch64
+  Hash algo:    sha1
+  Hash value:   ed367bad6dd77901989aa4db4cf05e80f6f87d39
+ Default Configuration: 'conf@system-top.dtb'
+ Configuration 0 (conf@system-top.dtb)
+  Description:  1 Linux kernel, FDT blob
+  Kernel:       kernel@1
+  FDT:          fdt@system-top.dtb
+  Hash algo:    sha1
+  Hash value:   unavailable
